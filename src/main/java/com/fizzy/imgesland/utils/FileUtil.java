@@ -17,7 +17,7 @@ public class FileUtil {
 
     //自己设置的目录
     //public static final String fileDir = "D:\\MyProject\\images\\";
-    public static final String fileDir = "\\usr\\local\\image\\";
+    public static final String fileDir = "/usr/local/image/";
 
     public static String uploadFile(MultipartFile file) {
         String fileName = file.getOriginalFilename();
