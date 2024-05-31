@@ -38,7 +38,7 @@ public class FileUtil {
         } catch (IOException e) {
             return "";
         }
-        return absolutePath;
+        return pathPattern + hashFileName;
     }
 
     private static String getFileName() {
