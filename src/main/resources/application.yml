@@ -4,13 +4,12 @@ server:
 spring:
   application:
     name: images-land
-
-cloud:
-  loadbalancer:
-    enabled: true
-  nacos:
-    discovery:
-      server-addr: http://121.36.241.84:8848/ # 注册到Nacos中
+  cloud:
+    loadbalancer:
+      enabled: true
+    nacos:
+      discovery:
+        server-addr: http://121.36.241.84:8848/ # 注册到Nacos中
 
 ## 是否启用跨域配置
 cors:
